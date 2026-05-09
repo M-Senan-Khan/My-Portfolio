@@ -1,4 +1,5 @@
 @import 'utilities.css';
+
 :root{
   --primary: #3DCFD3;
   --dark:#161616;
@@ -18,7 +19,8 @@ body{
 }
 header{
   background-color: var(--dark);
-  height: 800px;
+  clip-path: polygon(0 0,100% 0,100% 100%,70% 93%,0 100%);
+  
 }
 .container{
   max-width: 1152px;
@@ -41,4 +43,76 @@ header nav{
 }
 .branding{
   margin-right: 3rem;
+}
+.hero .right{
+  color: var(--pure);
+}
+.hero .right h6{
+  font-size: 1.6rem;
+  
+  color: var(--primary);
+  margin-bottom: 0.5rem;
+  font-family:'Lucida Sans', 'Lucida Sans Regular', 'Lucida Grande', 'Lucida Sans Unicode', Geneva, Verdana, sans-serif;
+}
+.hero .right h1{
+ font-weight: 200;
+ line-height: 2.5rem;
+ margin-bottom: 1.7rem;
+}
+.hero .right h1 span{
+  color: var(--primary);
+}
+.hero .right p{
+  line-height: 1.5;
+  margin-bottom: 2rem;
+}
+.hero .right{
+  margin-top: -2rem;
+}
+.hero .left{
+  margin-top: -3rem;
+}
+section{
+  padding: 7rem 0;
+}
+
+    
+
+section.about h1{
+  margin-bottom: 1rem;
+  font-size: 1.6rem;
+  font-weight: 400;
+}
+section.about h1 span{
+  color: var(--primary);
+}
+section.about h3{
+  font-size: 1rem;
+  margin-bottom: 1rem;
+  font-weight: 400;
+}
+section.about p{
+  color: var(--ternary);
+  line-height: 1.9;
+  margin-bottom: 2rem;
+}
+section.about .social{
+  display: flex;
+}
+section.about .social a{
+ 
+  display: flex;
+  align-items: center;
+  justify-content: center;
+  width: 35px;
+  height: 35px;
+  border-radius: 50%;
+  margin-right: 0.6rem;
+  transition: all .3s ease;
+}
+section.about .social a:hover{
+  background-color: var(--primary);
+}
+section.about .about-me-img{
+  margin-left: 6rem;
 }
