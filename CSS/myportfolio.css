@@ -107,7 +107,7 @@ section.about .social a{
   justify-content: center;
   width: 35px;
   height: 35px;
-  border-radius: 50%;
+  border-radius: 51%;
   margin-right: 0.6rem;
   transition: all .3s ease;
 }
