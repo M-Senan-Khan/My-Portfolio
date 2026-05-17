@@ -1,0 +1,74 @@
+@import 'utilities.css';
+
+:root{
+  --primary: #3DCFD3;
+  --dark:#161616;
+  --pure:#FFFFFF;
+  --ternary:#898989;
+  --light:#F2F2F2;
+
+}
+body{
+  font-family: poppins,sans-serif;
+}
+*{
+  padding: 0;
+  margin: 0;
+  box-sizing: border-box;
+  -webkit-font-smoothing:antialised;
+}
+header{
+  background-color: var(--dark);
+  clip-path: polygon(0 0,100% 0,100% 100%,70% 93%,0 100%);
+  
+}
+.container{
+  max-width: 1152px;
+  padding:0 15px ;
+  margin:0 auto;
+}
+header nav .left a{
+  color: var(--pure);
+  text-decoration: none;
+  margin-right: 2rem;
+  text-transform: uppercase;
+}
+header nav .left a:hover{
+  color: var(--primary);
+  transition: all .3s ease;
+}
+
+header nav{
+  padding:2rem 0;
+}
+.branding{
+  margin-right: 3rem;
+}
+.hero .right{
+  color: var(--pure);
+}
+.hero .right h6{
+  font-size: 1.6rem;
+  
+  color: var(--primary);
+  margin-bottom: 0.5rem;
+  font-family:'Lucida Sans', 'Lucida Sans Regular', 'Lucida Grande', 'Lucida Sans Unicode', Geneva, Verdana, sans-serif;
+}
+.hero .right h1{
+ font-weight: 200;
+ line-height: 2.5rem;
+ margin-bottom: 1.7rem;
+}
+.hero .right h1 span{
+  color: var(--primary);
+}
+.hero .right p{
+  line-height: 1.5;
+  margin-bottom: 2rem;
+}
+.hero .right{
+  margin-top: -2rem;
+}
+.hero .left{
+  margin-top: -3rem;
+}
